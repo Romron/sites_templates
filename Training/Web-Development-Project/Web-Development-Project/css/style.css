@@ -1,0 +1,47 @@
+
+/*установить модель расчёта размеров блоков*/
+html{	
+	box-sizing: border-box;
+}
+*,*::before,*::after{
+	box-sizing: inherit;
+}
+
+/*настройки для картинок*/
+img {
+	max-whith: 100%	
+	hight: auto;
+}
+
+/*-------------------------------------------------------------*/
+
+.wrap_main{
+	border: 2px solid red;
+	height: 9895px;
+}
+
+.wrap_1{
+	border: 1px solid blue;
+	max-width: 1170px;
+	height: 8452px;
+	margin: 0px auto;
+}
+
+.wrap_top_bar{
+	border: 5px solid green;
+	max-width: 1170px;
+	height: 122px;
+	margin: 0px auto;	
+}
+
+.wrap_heder{
+	/*border: 2px solid black;*/
+	background: #D2F7FB;
+	width: 100%;
+	height: 655px;
+	margin: 0px auto;	
+
+	position: absolute;
+	left: 0px;
+	top: 122px;
+}
