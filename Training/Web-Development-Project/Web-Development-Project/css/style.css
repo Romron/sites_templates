@@ -45,31 +45,30 @@ img {
 	display: flex;
 }
 
-.wrap-top-bar__your-logo {
+.wrap-top-bar-your-logo {
 	border: 1px solid black;
-	flex-basis: 560px;
+	flex-basis: 575px;
 }
-.wrap-top-bar__home {
-	flex-grow: ;
+
+.wrap-top-menu {
+	border: 1px solid red;
+	width: 100%;
 }
-.wrap-top-bar__about {
-	flex-grow: ;
-}
-.wrap-top-bar__servicing {
-	flex-grow: ;
-}
-.wrap-top-bar__portfolio {
-	flex-grow: ;
-}
-.wrap-top-bar__blog {
-	flex-grow: ;
-}
-.wrap-top-bar__contact-us {
-	flex-grow: ;
-}
-.wrap-top-bar__serch {
-	flex-grow: ;
-}
+
+.top-menu__ul {
+	display: flex;
+ 	justify-content: center;
+ }
+
+.top-menu__home {}
+.top-menu__about {}
+.top-menu__servicing {}
+.top-menu__portfoli {}
+.top-menu__blog {}
+.top-menu__contact-us {}
+.top-menu__serch {}
+
+
 
 /*------    end top-bar    ------*/
 
