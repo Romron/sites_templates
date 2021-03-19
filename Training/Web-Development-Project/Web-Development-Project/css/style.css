@@ -98,77 +98,84 @@ img {
 
 /*-------------------------------------------------------------*/
 
-.wrap-main{
-	height: 9895px;
-}
+	.wrap-main{
+		height: 9895px;
+	}
 
 /*------    start top-bar    ------*/
-.wrap-top-bar{
-	max-width: 1170px;
-	height: 122px;
-	margin: 0px auto;
-	display: flex;
-}
+	.wrap-top-bar{
+		max-width: 1170px;
+		height: 122px;
+		margin: 0px auto;
+		display: flex;
+	}
 
-.your-logo {
-	flex-basis: 575px;
-	align-self: center;
-	font-size: 25px;
-	color: #212121;
-	font-weight: bold;	
-}
+	.your-logo {
+		flex-basis: 575px;
+		align-self: center;
+		font-size: 25px;
+		color: #212121;
+		font-weight: bold;	
+	}
 
-.wrap-top-menu {
-	width: 100%;
- 	/*height: 100%;*/
+	.wrap-top-menu {
+		width: 100%;
+	 	/*height: 100%;*/
 
-}
+	}
 
-.top-menu__ul {
-	display: flex;
- 	justify-content: space-between;
- 	height: 100%;
- 	align-items: center;
- }
+	.top-menu__ul {
+		display: flex;
+	 	justify-content: space-between;
+	 	height: 100%;
+	 	align-items: center;
+	 }
 
-.top-menu__home {}
-.top-menu__about {}
-.top-menu__servicing {}
-.top-menu__portfoli {}
-.top-menu__blog {}
-.top-menu__contact-us {}
+	.top-menu__home {}
+	.top-menu__about {}
+	.top-menu__servicing {}
+	.top-menu__portfoli {}
+	.top-menu__blog {}
+	.top-menu__contact-us {}
 
-.top-bar__serch {
-	flex-basis: 165px;
-	display: flex;
-	align-items: center;
-	padding: 25px;
-}
+	.top-bar__serch {
+		flex-basis: 165px;
+		display: flex;
+		align-items: center;
+		padding: 25px;
+	}
 
-.top-menu__ul a {
-	font-family: "OpenSans";
-	text-decoration: none;
-	font-size: 22px;
-	color: #212121;
-	font-weight: bold;
-}
+	.top-menu__ul a {
+		font-family: "OpenSans";
+		text-decoration: none;
+		font-size: 22px;
+		color: #212121;
+		font-weight: bold;
+	}
 
-.serch-icon::before{
-	content: url(../img/serch.png)
-}
-
-
+	.serch-icon::before{
+		content: url(../img/serch.png)
+	}
 
 /*------    end top-bar    ------*/
 
+/*-----    start heder    -----*/
+	
 
-.wrap-heder{
-	border: 1px solid black;
-	background: #D1D7D8;
-	width: 100%;
-	height: 655px;
-	margin: 0px auto;	
-}
+	.wrap-heder{
+		border: 1px solid black;
+		width: 100%;
+		height: 655px;
+		margin: 0px auto;	
+		background-color: black;
+		background-image: url(../img/pexels-photo-356056_for_heder.jpeg);
+		opacity: 0.2;
+		background-size: 100%;
+		background-repeat: no-repeat;
+
+	}
+
+/*-----    end heder    -----*/
 
 .wrap-about-us{
 	border: 1px solid blue;
