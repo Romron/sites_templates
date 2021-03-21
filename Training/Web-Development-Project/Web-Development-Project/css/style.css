@@ -253,12 +253,41 @@ img {
 
 /*-----    end heder    -----*/
 
+/*-----    start about-us    -----*/
 .wrap-about-us{
-	border: 1px solid blue;
-	/*background: #A2A29D;*/
-	width: 100%;
-	height: 675px;
-}
+		border: 2px solid red;
+		width: 100%;
+		height: 675px;
+		
+
+	}
+
+
+	.about-us__title {
+		background: #FAC7C7;
+		height: 40%;
+	}
+
+	.about-us__title_text-1{
+
+	}
+
+	.wrap-designs {
+		background: #C1FCD9;
+		height: 60%;
+	}
+
+	.design {
+
+	}
+
+
+
+
+
+
+
+/*-----    end  about-us    -----*/
 
 .wrap-services{
 	border: 1px solid #FCA3F3;
