@@ -97,10 +97,16 @@ img {
 
 
 /*-------------------------------------------------------------*/
+/*-------------------------------------------------------------*/
 
 	.wrap-main{
 		height: 9895px;
 		font-family: Open Sans;
+	}
+
+	a{
+		text-decoration: none;
+		color: #212121;
 	}
 
 /*------    start top-bar    ------*/
@@ -158,9 +164,7 @@ img {
 
 	.top-menu__ul a {
 		font-family: "Open Sans";
-		text-decoration: none;
 		font-size: 22px;
-		color: #212121;
 		font-weight: bold;
 	}
 
@@ -250,7 +254,6 @@ img {
 	.down-bar a::before{
 			content: url(../img/down-bar.png)
 		}
-
 /*-----    end heder    -----*/
 
 /*-----    start about-us    -----*/
@@ -313,15 +316,109 @@ img {
 		top: 80px;
 
 	}
-
 /*-----    end  about-us    -----*/
 
-.wrap-services{
-	border: 1px solid #FCA3F3;
-	/*background: #A2A29D;*/
-	width: 100%;
-	height: 1414px;
-}
+
+/*-----    start wrap-services    -----*/
+
+	.wrap-services{
+		background: #e4fdf9; 
+		width: 100%;
+		height: 1435px;
+	}
+
+	.wrap-services_text {
+			width: 700px;
+			min-height: 130px;
+			overflow: hidden;
+			margin: 0px auto;
+			text-align: center;
+			position: relative;
+			top: 179px;
+		}
+
+	.wrap-services__title{
+		font-size: 30px;
+		font-weight: bold;
+		display: block;
+	}
+
+	.wrap-services__text{
+		font-size: 22px;
+		display: block;
+		position: relative;
+		top: 30px;
+
+	}
+
+	.wrap-cards-product{
+		width: 1170px;
+		height: 906px;
+		left: 0px;
+		right: 0px;
+		position: relative;
+		top: 285px;		
+		margin: 0px auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-content: space-between;
+
+	}
+
+	.card-product {
+		width: 370px;
+		height: 435px;
+		background: #ffffff;
+		text-align: center;
+	}
+
+	.card-product__icon {
+		margin: 60px 0px 40px 0px;
+	}
+
+	.card-product__title {
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.card-product__text {
+		font-size: 15px;
+		margin: 30px 50px 45px 50px;
+	}
+
+	.card-product__button {
+		border: 2px solid black;
+		height: 55px;
+		width: 150px;
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.card-product:hover,
+	.card-product__title:hover,
+	.card-product__text:hover{
+		background: #00897b;
+		color: #ffffff;
+	}
+
+	.card-product:hover button{
+		border: 2px solid #ffffff;
+		background: #00897b;
+		color: #ffffff;
+		cursor: url(../img/cursor.png), pointer;
+	}
+
+	.card-product span::before{
+			content: url(../img/card-product.png)
+		}
+
+	.card-product:hover span::before{
+			content: url(../img/card-product-white.png)
+		}
+
+
+/*-----    end  wrap-services    -----*/
 
 .wrap-latest-works{
 	border: 1px solid #2AF886;
