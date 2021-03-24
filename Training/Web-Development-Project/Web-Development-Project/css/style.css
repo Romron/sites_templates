@@ -420,12 +420,89 @@ img {
 
 /*-----    end  wrap-services    -----*/
 
-.wrap-latest-works{
-	border: 1px solid #2AF886;
-	/*background: #A2A29D;*/
-	width: 100%;
-	height: 1414px;
-}
+/*-----    start  latest-works    -----*/
+
+	.wrap-latest-works{
+		border: 1px solid black;
+		width: 100%;
+		height: 1414px;
+	}
+
+	.wrap-latest-work-cards{
+		width: 1170px;
+		height: 906px;
+		left: 0px;
+		right: 0px;
+		position: relative;
+		top: 285px;		
+		margin: 0px auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-content: space-between;		
+	}
+
+	.latest-work-card{
+		width: 370px;
+		height: 435px;
+		background: #ffffff;
+		text-align: center;
+
+		display: flex;
+		justify-content: center;
+	}
+
+	.latest-work-card img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.wrap-latest-work-card__text{
+		position: absolute;
+		align-self: center;
+	}
+
+	.wrap-latest-work-card__text span{
+		display: block;
+		color: #ffffff;
+		letter-spacing: 2px;
+	}
+
+	.latest-work-card-1__text_title{
+		font-size: 20px;
+		font-weight: bold;	
+
+		position: relative;
+		top: -20px;
+	}
+
+	.latest-work-card-1__text_text{
+		position: relative;
+		top: -10px;
+	}
+
+	#latest-work-card-1 img{
+		object-position: -60px 0px;
+	}
+
+	#latest-work-card-1{
+		background: rgba(0,0,0,1.0);
+	}
+
+	.wrap-latest-works-button{
+		border: 1px solid blue;
+		width: 690px;
+		height: 55px;
+
+		position: relative;
+		top: 340px;
+	}
+
+
+
+/*-----    end  latest-works    -----*/
+
 
 .wrap-prising-plan{
 	border: 1px solid #A38BFA;
