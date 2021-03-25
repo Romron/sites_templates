@@ -423,18 +423,63 @@ img {
 /*-----    start  latest-works    -----*/
 
 	.wrap-latest-works{
-		border: 1px solid black;
 		width: 100%;
-		height: 1414px;
+		height: 1616px;
+	}
+
+	.wrap-latest-works_text{
+			width: 700px;
+			min-height: 130px;
+			overflow: hidden;
+			margin: 0px auto;
+			text-align: center;
+			position: relative;
+			top: 130px;		
+	}
+
+	.wrap-latest-works-button{
+		/*border: 1px solid blue;*/
+		width: 690px;
+		height: 55px;
+		position: relative;
+		top: 235px;
+		left: 0px;
+		right: 0px;
+		margin: 0px auto;
+		display: flex;
+		justify-content: space-between; 
+	}
+
+	.latest-works-button{
+		height: 55px;
+		background: #ffffff;
+		width: 179px;
+		border: 2px solid #00897b;
+
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	#button-all {
+		width: 100px;
+		background: #00897b;
+		color: #ffffff;
+		font-weight: normal;
+	}
+
+	.latest-works-button:hover{
+		background: #00897b;
+		color: #ffffff;
+		cursor: url(../img/cursor.png), pointer;
 	}
 
 	.wrap-latest-work-cards{
 		width: 1170px;
-		height: 906px;
+		height: 770px;
 		left: 0px;
 		right: 0px;
 		position: relative;
-		top: 285px;		
+		top: 325px;		
 		margin: 0px auto;
 		display: flex;
 		flex-wrap: wrap;
@@ -444,7 +489,7 @@ img {
 
 	.latest-work-card{
 		width: 370px;
-		height: 435px;
+		height: 370px;
 		background: #ffffff;
 		text-align: center;
 
@@ -490,16 +535,21 @@ img {
 		background: rgba(0,0,0,1.0);
 	}
 
-	.wrap-latest-works-button{
-		border: 1px solid blue;
-		width: 690px;
-		height: 55px;
-
+	.wrap-button-view-all{
 		position: relative;
-		top: 340px;
+		top: 455px;
+		display: flex;
+		justify-content: center;
+
+
 	}
 
+	.wrap-button-view-all button{
+		background: #00897b;
+		color: #ffffff;		
 
+
+	}
 
 /*-----    end  latest-works    -----*/
 
