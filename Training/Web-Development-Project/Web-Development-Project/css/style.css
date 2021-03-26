@@ -680,29 +680,104 @@ img {
 		border: none;
 	}
 
+/*-----    end  prising plan    -----*/
 
 
+/*-----    start  our team member    -----*/
 
+	.wrap-our-team-member{
+		width: 100%;
+		height: 1094px;
+	}
 
+	.wrap-our-team-member-card{
+		height: 480px;
+		top: 280px;
+	}
 
+	.our-team-member-card{
+		height: 100%;
 
-/*
-	.prising-plan-cards-text__str span{
+		position: relative;
+
+	}
+
+	.our-team-member-card__foto{
+		height: 320px;
+		border-radius: 7px;
+		overflow: hidden;
+	}
+
+	.our-team-member-card__text{
+		width: 100%;
+		height: 47px;
+		position: absolute;
+		top: 355px;
+
+	}
+
+	.our-team-member-card__text span{
 		display: block;
+	}
 
-		height: 57px;
-		vertical-align: middle;
-		}
+	.our-team-member-card__text span[class="title"]{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.our-team-member-card__text span[class="text"]{
+		font-size: 15px;
+		margin-top: 10px; 
+	}
+
+	.our-team-member-card__icons{
+		border: 1px solid green; 
+
+		width: 100%;
+		height: 47px;
+
+		position: absolute;
+		top: 440px;		
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+/*	.our-team-member-card__icons img{
+		width: 30px;
+		height: 30px;
+	}
 */
 
-/*-----    end  prising plan    -----
 
-.wrap-our-team-member{
-	border: 1px solid #766888;
-	/*background: #A2A29D;*/
-	width: 100%;
-	height: 1094px;
-}
+	.social-icons {
+	  text-align: center;
+	  }  
+	.social-icons li {
+	  display:inline-block;
+	  list-style-type:none;
+	  -webkit-user-select:none;
+	  -moz-user-select:none;
+	  }
+	.social-icons li a {
+	  border-bottom: none;
+	  }
+	.social-icons li img {
+	  width:30px;
+	  height:30px;
+	  /*margin-right: 40px;*/
+	}
+
+
+
+
+
+
+
+
+/*-----    end  our team member    -----*/
+
+
 
 .wrap-blog{
 	border: 1px solid #FD5454;
