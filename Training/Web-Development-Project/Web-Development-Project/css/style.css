@@ -819,9 +819,7 @@ img {
 		background: #e4fdf9;
 		width: 100%;
 		height: 1870px;
-
 		position: relative;
-
 	}
 
 	.wrap-blog-card{
@@ -839,40 +837,30 @@ img {
 	}
 
 	.blog-card{
-		/*border: 1px solid #95FE25;*/
 		width: 570px;
 		height: 400px;
-
 		overflow: hidden;
 	}
 
 	.wrap-blog_text{
-		/*border: 1px solid #A10AE0;*/
 		width: 450px;
 		height: 170px;		
-
 		position: relative;
 		top: 60px;
 	}
 
 	.blog__title {
-
 		font-size: 25px;
 		font-weight: bold;
-
 	}
 
 	.blog-calendar-development {
 		position: relative;
 		top: 30px;
-
 		font-size: 17px;
 		font-weight: bold;
-
 		display: flex;
 		justify-content: right;
-
-
 	}
 
 	.blog-calendar-development img,
@@ -896,10 +884,8 @@ img {
 		top: 1670px;		
 		position: absolute;
 		margin: 0px auto;
-
 		width: 220px;
 		height: 70px;
-
 		background: #00897b;
 		color: #ffffff;
 		font-size: 20px;
@@ -907,17 +893,94 @@ img {
 		border: none;
 	}
 
-
-
 /*-----    end  blog    -----*/
 
+/*-----    start  contact-as    -----*/
 
-.wrap-contact-as{
-	border: 1px solid #FFC619;
-	/*background: #A2A29D;*/
-	width: 100%;
-	height: 1255px;
-}
+
+
+	.wrap-contact-as{
+		border: 1px solid #FFC619;
+		background: rgba(150, 147, 147,0.5);
+		width: 100%;
+		height: 1255px;
+	}
+
+
+	.wrap-contact-as-cards{
+		border: 1px solid #3803FD;
+
+		width: 1171px;
+		height: 195px;
+		left: 0px;
+		right: 0px;
+		top: 270px;		
+		position: relative;
+		margin: 0px auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+
+
+	.contact-as-card{
+		border: 1px solid red;
+		width: 33.33%;
+		height: 195px;	
+
+		position: relative;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.wrap-card-img{
+		width: 107px;
+		height: 107px;	
+
+		position: relative;
+		border: 2px solid blue;
+	}
+
+
+	.wrap-card-img img{
+		left: 0px;
+		right: 0px;
+		top: 0px;		
+		position: absolute;
+		margin: 0px auto;		
+		top: 50%;
+		transform: translate(0, -50%)
+	}
+
+	.card-text{
+		border: 2px solid green;
+
+	}
+
+	.card-text span{
+		display: block;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		font-size: 20px;
+		color: #ffffff;
+
+	}
+
+	.card-text span:nth-of-type(1){
+		margin-bottom: 5px;
+	}
+
+
+
+/*-----    end  contact-as    -----*/
+
 
 .wrap-all-rights-reserved{
 	border: 1px solid #FFC619;
