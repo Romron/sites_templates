@@ -2,9 +2,13 @@
 /*установить модель расчёта размеров блоков*/
 html{	
 	box-sizing: border-box;
+
+	font-family: 'Segoe WP N', sans-serif;
+
 }
 *,*::before,*::after{
 	box-sizing: inherit;
+
 }
 
 /*настройки для картинок*/
@@ -13,8 +17,98 @@ img {
 	hight: auto;
 }
 
+/*подключение шрифтов*/
+
+	.wrap-main {
+		border: 2px solid red;
+		width: 100%;
+		min-height: 1200px;
+		position: relative;
+	}
+
+/*------------- start wrap-top-heder -------------*/
+
+	.wrap-top-heder {
+		border: 2px solid blue;
+		width: 975px;
+		height: 70px;	
+
+		position: absolute;
+		left: 0px;
+		right: 0px;
+		margin: 0px auto;		
+
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+	}
+
+	.wrap-logo {
+		width: 175px;
+		height: 30px;
+		position: relative;
+	}
+
+	.wrap-logo img{
+		position: absolute;
+		left: 0px;
+		right: 0px;
+		margin: 0px auto;	
+	}	
+
+	.wrap-top-menu {
+		width: 370px;
+		height: 30px;
+
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+	}
+
+	.wrap-top-menu ul {
+		display: flex;
+		justify-content: flex-start;
+		flex-grow: 1;
+	}
+
+	.wrap-top-menu li{
+		margin-right: 30px;
+		font-size: 16px;
+		color: #717171;
+	}
 
 
+	.wrap-top-menu button{
+		width: 100px;
+		height: 31px;
+		background: #33abf5;
+		color: #ffffff;
+		border: none;
+	}
+
+
+
+
+
+/*------------- end wrap-top-heder -------------*/
+
+	.header {}
+
+	.wrap-header-text {}
+
+	.slider {}
+
+	.wrap-main-block {}
+
+	.wrap-main-text {}
+
+	.main-cards {}
+
+	.wrap-footer {}
+
+	.wrap-text-footer {}
 
 
 

@@ -146,13 +146,6 @@ img {
 	 	align-items: center;
 	 }
 
-	.top-menu__home {}
-	.top-menu__about {}
-	.top-menu__servicing {}
-	.top-menu__portfoli {}
-	.top-menu__blog {}
-	.top-menu__contact-us {}
-
 	.top-bar__serch {
 		flex-basis: 165px;
 		display: flex;
