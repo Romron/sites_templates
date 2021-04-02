@@ -64,7 +64,6 @@ img {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-
 	}
 
 	.wrap-top-menu ul {
@@ -78,7 +77,6 @@ img {
 		font-size: 16px;
 		color: #717171;
 	}
-
 
 	.wrap-top-menu button{
 		width: 100px;
