@@ -14,52 +14,89 @@ img {
 }
 
 	
+/*----- start for all blocks -----*/
+	.wrap-top-bar,
+	.wrap-header,
+	.wrap-navigation,
+	.wrap-latest-posts,
+	.wrap-slider,
+	.wrap-content,
+	.wrap-footer {
+		width: 940px;
+		border: 1px solid black;
+		background-color: #f6f6f6;
+	}
+
+/*----- end or all blocks -----*/
+
 /*----- start wrap-main -----*/
 	.wrap-main {
-		border 2px solid red;
 		width: 100%;
-		height: 
+		height: 2850px; 
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		border: 2px solid red;
+		background-color: #f3f3f3;
 	}
 /*----- end wrap-main -----*/
 
 /*----- start wrap-top-bar -----*/
 	.wrap-top-bar {
+		width: 1280px;
+		height: 35px;
 
+		background-color: #313131;
 	}
 /*----- wrap-top-bar end -----*/	
 
 /*----- start wrap-header -----*/
 	.wrap-header {
+		height: 147px;
+		
 
 	}
 /*----- wrap-top-bar end -----*/	
 
 /*----- start wrap-navigation -----*/
 	.wrap-navigation {
-
+		height: 55px;
+		background-color: #393939;
 	}
 /*----- wrap-navigation end -----*/	
 
 /*----- start wrap-latest-posts -----*/
 	.wrap-latest-posts {
+		height: 380px;
+		background-color: #292929;
 
 	}
 /*----- wrap-latest-posts end -----*/	
 
 /*----- start wrap-slider -----*/
 	.wrap-slider {
+		height: 305px;
+		width: 1025px;
+		background-color: #f0efeb;
+
 
 	}
 /*----- wrap-slider end -----*/	
 
 /*----- start wrap-content -----*/
 	.wrap-content {
-
+		height: 1310px;
+		background-color: #fdfdfd;			
 	}
 /*----- wrap-content end -----*/	
 
 /*----- start wrap-footer -----*/
 	.wrap-footer {
-
+		height: 515px;
+		background-color: #313131;		
 	}
 /*----- wrap-footer end -----*/	
+
+
