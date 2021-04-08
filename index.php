@@ -14,7 +14,8 @@
 
 	$arr_dirs = DirFilesR(__DIR__);
 	$repl_url = 'http://';
-	$pattern_url = '|^.*domains\\\|';
+	// $pattern_url = '|^.*domains\\\|';
+	$pattern_url = '|^\w:\\\\.*?\\\|';
 	$pattern_index = '|index\.|';
 	$pattern_tite_site = '|http://sites-templates/Training/(.*?)/|';
 	$arr_res_tite_site = [];

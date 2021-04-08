@@ -13,3 +13,53 @@ img {
 	hight: auto;
 }
 
+	
+/*----- start wrap-main -----*/
+	.wrap-main {
+		border 2px solid red;
+		width: 100%;
+		height: 
+	}
+/*----- end wrap-main -----*/
+
+/*----- start wrap-top-bar -----*/
+	.wrap-top-bar {
+
+	}
+/*----- wrap-top-bar end -----*/	
+
+/*----- start wrap-header -----*/
+	.wrap-header {
+
+	}
+/*----- wrap-top-bar end -----*/	
+
+/*----- start wrap-navigation -----*/
+	.wrap-navigation {
+
+	}
+/*----- wrap-navigation end -----*/	
+
+/*----- start wrap-latest-posts -----*/
+	.wrap-latest-posts {
+
+	}
+/*----- wrap-latest-posts end -----*/	
+
+/*----- start wrap-slider -----*/
+	.wrap-slider {
+
+	}
+/*----- wrap-slider end -----*/	
+
+/*----- start wrap-content -----*/
+	.wrap-content {
+
+	}
+/*----- wrap-content end -----*/	
+
+/*----- start wrap-footer -----*/
+	.wrap-footer {
+
+	}
+/*----- wrap-footer end -----*/	
