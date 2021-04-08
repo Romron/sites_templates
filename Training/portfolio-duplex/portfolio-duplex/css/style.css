@@ -47,9 +47,15 @@ img {
 	.wrap-top-bar {
 		width: 1280px;
 		height: 35px;
-
 		background-color: #313131;
 	}
+
+	.wrap-menu{
+		width: auto;	/*?????*/
+		height: 15px;
+		border: 2px solid green;
+	}
+
 /*----- wrap-top-bar end -----*/	
 
 /*----- start wrap-header -----*/
