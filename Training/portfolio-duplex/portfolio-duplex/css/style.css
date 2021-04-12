@@ -159,20 +159,18 @@ img {
 	}
 /*----- wrap-latest-posts end -----*/	
 
-/*----- start wrap-slider -----*/
-	.wrap-slider {
+/*----- wrap-slider start -----*/
+
+		.wrap-slider {
 		height: 305px;
 		width: 1025px;
 		background-color: #f0efeb;
 		position: relative;
-
 		border: 1px solid #dbdbdb;
-
 	}
 
 	.wrap-slider-cards,
 	.wrap-hiden	{
-		
 		width: 3760px;
 		height: 280px;
 		position: absolute;
@@ -190,27 +188,14 @@ img {
 	}
 
 	.wrap-slider-cards {
-/*		width: 3760px;
-		height: 280px;
-		position: absolute;
-		left: 0px;
-		right: 0px;
-		margin: 0px auto;
-		top: 50%;
-		transform: translate(0, -50%);*/
 		display: flex;
-
 	}
 
 	.slider-card {
 		height: 280px;
 		width: 235px;
 		transition: all 0.9s ease;
-		/*border: 1px solid blue;*/
-	}
-
-	.slider-card:hover{
-		transform: scale(1.07);
+		border: 1px solid blue;
 	}
 
 	.slider-card img{
@@ -222,7 +207,6 @@ img {
 		top: 50%;
 		transform: translate(0, -50%);
 		opacity: 0.5;
-
 		cursor: pointer;
 	}
 
@@ -235,20 +219,80 @@ img {
 		opacity: 0.8;
 	}
 
-	.span:focus ~ .slider-card{
-		margin-left: 25%;
+	.slider-card:hover{
+		transform: scale(1.07);
+	}
 
 
-		border: 4px solid red;
+	.nav-test{
+		position: absolute;
+		height: 40px;
+		width: 300px;
+		left: 0px;
+		right: 0px;
+		margin: 0px auto;
+		bottom: -50px;
+		border: 2px solid black;
+
+		display: flex;
+		justify-content: space-around;
+		align-items: center; 
+	}
+
+
+	.nav-test label{
+		cursor: pointer;
+		display: inline-block;
+		/*margin: 25px 12px 0 16px;*/
+		position: relative;
+		height: 20px;
+		width: 20px;
+		border-radius: 50%;
+
+	}
+
+
+	.nav-test label:after{
+		content: " ";
+		border: 1px solid black;
+		display: block;
+
+		width: 20px;
+		height: 20px;
+		
+		border-radius: 50%;
+		transition: background ease-in-out 5.5s;
+
+	}
+
+	#slide1:checked ~ .nav-test label:nth-of-type(1),
+	#slide2:checked ~ .nav-test label:nth-of-type(2),
+	#slide3:checked ~ .nav-test label:nth-of-type(3),
+	#slide4:checked ~ .nav-test label:nth-of-type(4),
+	#slide5:checked ~ .nav-test label:nth-of-type(5) {
+		background: green;
+	}
+
+	#slide1:checked ~ .wrap-hiden .wrap-slider-cards > .slide1,
+	#slide2:checked ~ .wrap-hiden .wrap-slider-cards > .slide2,
+	#slide3:checked ~ .wrap-hiden .wrap-slider-cards > .slide3,
+	#slide4:checked ~ .wrap-hiden .wrap-slider-cards > .slide4{
+/*
+		border: 10px solid red;
+
+		transform: scale(3.07);*/
+
+		/*margin-left: 100%;*/
+		margin-right: -25%;
+
 		
 	}
 
 
 
 
-
-
 /*----- wrap-slider end -----*/	
+
 
 /*----- start wrap-content -----*/
 	.wrap-content {
