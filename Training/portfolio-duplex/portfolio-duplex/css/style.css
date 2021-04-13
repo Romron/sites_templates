@@ -183,8 +183,8 @@ img {
 
 	.wrap-hiden{
 		width: 940px;
-		border: 1px solid red;
-		overflow: hidden;
+		/*border: 1px solid red;*/
+		/*overflow: hidden;*/
 	}
 
 	.wrap-slider-cards {
@@ -265,32 +265,30 @@ img {
 
 	}
 
-	#slide1:checked ~ .nav-test label:nth-of-type(1),
-	#slide2:checked ~ .nav-test label:nth-of-type(2),
-	#slide3:checked ~ .nav-test label:nth-of-type(3),
-	#slide4:checked ~ .nav-test label:nth-of-type(4),
-	#slide5:checked ~ .nav-test label:nth-of-type(5) {
-		background: green;
+	#slide80:checked ~ .pointer-left,
+	#slide90:checked ~ .pointer-right{
+		border: 8px solid red;
 	}
 
-	#slide1:checked ~ .wrap-hiden .wrap-slider-cards > .slide1,
-	#slide2:checked ~ .wrap-hiden .wrap-slider-cards > .slide2,
-	#slide3:checked ~ .wrap-hiden .wrap-slider-cards > .slide3,
-	#slide4:checked ~ .wrap-hiden .wrap-slider-cards > .slide4{
-/*
-		border: 10px solid red;
 
-		transform: scale(3.07);*/
+	#slide70:checked ~ .wrap-hiden .wrap-slider-cards .slide-middle1{
+		margin-left: -50%;
+		
+	}
 
-		/*margin-left: 100%;*/
-		margin-right: -25%;
-
+	#slide80:checked ~ .wrap-hiden .wrap-slider-cards .slide1{
+		margin-left: -25%;
 		
 	}
 
 
+	#slide90:checked ~ .wrap-hiden .wrap-slider-cards .slide5{
+		margin-left: 25%;
+		
+	}
 
 
+*/
 /*----- wrap-slider end -----*/	
 
 
