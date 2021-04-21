@@ -168,9 +168,8 @@ img {
 		border: 1px solid #dbdbdb;
 	}
 
-	.wrap-slider-cards,
-	.wrap-hiden	{
-		width: 3760px;
+	.wrap-slider-cards{
+		width: 1025px;
 		height: 280px;
 		position: absolute;
 		left: 0px;
@@ -178,22 +177,24 @@ img {
 		margin: 0px auto;
 		top: 50%;
 		transform: translate(0, -50%);
-	}
+		/*overflow: hidden;*/
 
-	.wrap-hiden{
-		width: 940px;
-		overflow: hidden;
-	}
-
-	.wrap-slider-cards {
-		display: flex;
+		border: 3px solid red;
+		
 	}
 
 	.slider-card {
-		height: 280px;
-		width: 235px;
-		transition: all 1s ease;
-		border: 1px solid #dbdbdb;
+		/*height: 280px;*/
+		height: 100%;
+		width: 100%;
+		/*transition: all 1s ease;*/
+		/*border: 1px solid #dbdbdb;*/
+		border: 1px solid blue;
+
+		position: absolute;
+
+
+		background: #C6F8E7;
 	}
 
 	.slider-card img{
@@ -248,16 +249,20 @@ img {
 	}
 
 	#slide1:checked ~ .wrap-hiden .wrap-slider-cards .slide-middle1{
-		margin-left: 25%;
+		/*margin-left: 25%;*/
 	}
 
-	#slide2:checked ~ .wrap-hiden .wrap-slider-cards .slide1{
-		margin-left: -25%;
+	#slide1:checked ~ .wrap-hiden .wrap-slider-cards .slide1,
+	#slide2:checked ~ .wrap-hiden .wrap-slider-cards .slide2,
+	#slide3:checked ~ .wrap-hiden .wrap-slider-cards .slide3{
+		/*margin-left: -25%;*/
+		z-index: 1;
+		opacity: 1;
 	}
 
 
 	#slide3:checked ~ .wrap-hiden .wrap-slider-cards .slide5{
-		margin-left: -50%;
+		/*margin-left: -50%;*/
 	}
 
 
