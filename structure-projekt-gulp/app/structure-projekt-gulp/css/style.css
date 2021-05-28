@@ -1,5 +1,4 @@
-
-
+﻿
 /*установить модель расчёта размеров блоков*/
 html{	
 	box-sizing: border-box;
@@ -16,9 +15,5 @@ img {
 
 /*установка шрифтов подключённых в теге head*/
 body{
-	font-family: 'Raleway', sans-serif;
-}
-
-h{
-	height: ;
+	font-family: '******', sans-serif;
 }
