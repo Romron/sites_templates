@@ -13,3 +13,7 @@ img {
 	hight: auto;
 }
 
+/*установка шрифтов подключённых в теге head*/
+body{
+	font-family: '******', sans-serif;
+}
