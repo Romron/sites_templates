@@ -12,12 +12,12 @@
 
 <?php
 
-	$arr_dirs = DirFilesR(__DIR__);
+	$arr_dirs = DirFilesR(__DIR__.'/training');
 	$repl_url = 'http://';
 	// $pattern_url = '|^.*domains\\\|';
 	$pattern_url = '|^\w:\\\\.*?\\\|';
 	$pattern_index = '|index\.|';
-	$pattern_tite_site = '|http://sites-templates/Training/(.*?)/|';
+	$pattern_tite_site = '|http://sites-templates/Training/(.*?)/|i';
 	$arr_res_tite_site = [];
 
 	foreach ($arr_dirs as $value) {
@@ -42,13 +42,14 @@ function DirFilesR($dir){
 			if(is_dir($dir."/".$file)) {  
 				// Получим список файлов  
 				// вложенной папки...  
-				$subfiles = DirFilesR($dir."/".$file);  
+				$subfiles = DirFilesR($dir."/".$file); 
 				// ...и добавим их к общему списку  
 				$files = array_merge($files,$subfiles);  
 			}else{  
 				$files[] = $dir."/".$file;  
 			}  
-		}  
+		} 
+
 	}  
 	closedir($handle);  
 	return $files;  
