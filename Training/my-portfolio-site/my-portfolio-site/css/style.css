@@ -1,0 +1,46 @@
+html{
+	box-sizing: border-box;
+}
+*,*::before,*::after{
+	box-sizing: inherit;
+}
+
+img {
+	max-whith: 100%	
+	hight: auto;
+}
+
+/*-------------------------------------------------------*/
+
+#wrap-0{
+	position: absolute;
+	background: #fdf6e1;
+	width:100%;
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/*justify-content: space-around;*/
+
+}
+.heder-0,.futer-0{
+	background: #000000d6;
+	width:100%;
+	height: 100px;
+	margin: auto;
+}
+.futer-0{
+	background: #0077df;
+
+}
+.heder{}
+.body{}
+.futer{}
+
+
+
+.block {}
+.heder__logo {}
+.heder__serch {}
+.heder__right {}
