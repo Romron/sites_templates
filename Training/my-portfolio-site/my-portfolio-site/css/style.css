@@ -10,7 +10,23 @@ img {
 	hight: auto;
 }
 
-/*-------------------------------------------------------*/
+
+/*--------------	technical classes	--------------*/
+	._conteiner{
+		width: 1180px;
+		/*border: 1px solid #073dd8;*/
+	}
+
+	.block {
+		border: 1px solid #ffdfdf;
+		height: 100%;
+		flex-grow: 1;  /*для повышения надёжности вёрстки т.е. если изменить кол-во блоков ничего не изменится*/
+		/*background-color: #000000;*/
+	}
+
+
+
+/*--------------	technical classes	end	--------------*/
 
 .wrap-0{
 	position: absolute;
@@ -27,13 +43,6 @@ img {
 	align-items: center;
 }
 
-
-._conteiner{
-	width: 1180px;
-	border: 2px solid #073dd8;
-	box-sizing: content-box;
-}
-
 .heder-0,
 .footer-0{
 	background-color: #000000d6;
@@ -44,7 +53,6 @@ img {
 }
 
 .heder,
-.wrap-content,
 .footer{
 
 	display: flex;
@@ -55,15 +63,134 @@ img {
 	flex: 1 1 auto;
 }
 
-.block {
-	border: 1px solid #ffdfdf;
-	background-color: #000000;
-	height: 100%;
-	flex-grow: 1;
+/*--------------	heder	-----------------*/
+	.heder__logo {}
+	.heder__serch {}
+	.heder__right {}
+/*--------------	heder	end	--------------*/
 
-}
 
-/*
-.heder__logo {}
-.heder__serch {}
-.heder__right {}*/
+/*--------------	content		------------------*/
+
+
+/*--------------	content	end		--------------*/
+
+
+/*--------------	horizont-menu		------------------*/
+	.wrap-horizont-menu{
+		width: 100%;
+		height: 60px;
+	}
+	
+	.wrap-horizont-menu ul{
+		height: 100%;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: stretch;
+	}	
+
+	.wrap-horizont-menu li {
+		height:auto;
+		min-width: 100px;
+		max-width: 180px;
+		width: auto;
+		list-style: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0px 5px ;
+	}
+
+	.wrap-horizont-menu li a{
+		text-decoration: none;
+		text-align: center;
+		color: #0F0000;
+		font-size: 20px;
+		line-height: calc(20/14*100);		/*для того что бы при изменении размера шрифта высота строки осталась пропорциональной*/
+
+	}
+	
+/*--------------	horizont-menu	end		--------------*/
+
+/*--------------	main	start		--------------*/
+	.wrap-content{
+
+	}
+
+/*	main{
+		display: flex;
+	}*/
+
+	.categories-wrap,
+	.card-produkts-wrap {
+		width: 1180px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.category {
+		flex-grow: 1;	/* устанавливает одинаковую ширину всех блоков */
+		height: 200px;
+		margin: 10px;
+		position: relative;
+		overflow: hidden;
+	}
+	.category__wrap-text{
+		position: absolute;
+		z-index: 10;
+		width: auto;
+		height: 50px;
+		margin: 20px;
+	}
+	.category__wrap-text p {
+		font-size: 28px;
+		line-height: 105%;
+		color: #FFFFFF;
+	}
+	.category img{
+		width: 100%;
+		height: 100%;		
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		object-fit: cover;
+	}
+	.category::after{
+		display: block;
+		content: '';
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0px;
+		left: -150px;
+		background-color: #be0223;
+		opacity: 0.75;
+		transform: skew(-50deg);
+	}
+
+	.card-produkts-wrap{
+		background-color: #0FFAFD;
+
+
+	}
+
+	.card-produkt{
+		min-width: 25%;
+		min-height: 200px;
+		height: 150px;
+		background-color: #DCA8FA;
+
+
+	}
+
+
+
+/*--------------	main	end		--------------*/
+
+
+
+/*--------------	footer		------------------*/
+
+/*--------------	footer	end		--------------*/
+
+
