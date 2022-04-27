@@ -124,17 +124,20 @@ img {
 /*--------------	horizont-menu	end		--------------*/
 
 /*--------------	main	start		--------------*/
-.wrap-content {}
+/* .wrap-content {} */
 
-/*	main{
-		display: flex;
-	}*/
+main {
+	/* border: 2px solid rgb(250, 5, 5); */
+}
 
 .categories-wrap,
-.card-produkts-wrap {
+.card-produkts-wrap,
+.line-produkts-wrap {
 	width: 1180px;
 	display: flex;
 	justify-content: space-between;
+
+	border: 1px solid blue;
 }
 
 .category {
@@ -182,18 +185,26 @@ img {
 	transform: skew(-50deg);
 }
 
+.line-produkts-wrap {
+	/* min-width: 100%; */
+	min-height: 50px;
+	border: 1px solid black;
+}
+
 .card-produkts-wrap {
 	background-color: #0FFAFD;
+	/* border: 1px solid #be0223; */
 
 
 }
 
 .card-produkt {
-	min-width: 25%;
-	min-height: 200px;
-	height: 150px;
-	background-color: #DCA8FA;
-
+	/* min-width: 25%;
+	min-height: 200px; */
+	flex-grow: 1;
+	height: 255px;
+	border: 1px solid green;
+	background-color: #cecbcf;
 
 }
 
