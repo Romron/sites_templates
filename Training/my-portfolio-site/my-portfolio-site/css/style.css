@@ -262,10 +262,10 @@ main {
 .card-produkt {
 	flex: 1 1 0;
 	height: 350px;
-	background-color: #e8e7e9;
-
 	display: flex;
 	flex-direction: column;
+
+	/* background-color: #e8e7e9; */
 }
 
 .card-produkts-wrap div:nth-last-child(1) {
@@ -277,26 +277,26 @@ main {
 	/*отзывчивая ширина*/
 	overflow: hidden;
 	position: relative;
-	/* padding: 0px 0px 100% 0px; */
+	padding: 0px 0px 100% 0px;
 	/*вместо(!!!) фиксированной высоты*/
-
 	background-color: #71b8f3;
+
+	margin-bottom: 20px;
 }
 
 .card-produkt__img img {
-	/* position: absolute;
+	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	object-position: center; */
+	object-position: center;
 	/* или более подходящее значение*/
 }
 
 .card-produkt__discarb {
 	flex: 0 0 40%;
-	background-color: #dbf778;
 	display: flex;
 	flex-direction: column;
 }
@@ -306,17 +306,57 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #f7c596;
-	flex-basis: 15%;
+	flex-basis: 12%;
+	padding-bottom: 5px;
+	font-size: calc(18px + 10 * (100vw / 1280));
+	font-weight: 800;
 }
 
-.card-produkt__price {
+@media(max-width: 767px) {
+	.card-produkt__title {
+		font-size: calc(18 + (10 + 10 * 0.7) * ((100vw - 320px) / 1280));
+	}
+}
+
+.card-produkt__price-wrap {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #baf796;
-	flex-basis: 20%;
+	flex-basis: 35%;
+
+	margin: 10px;
 }
+
+.card-produkt__price-new {
+	font-size: calc(18px + 10 * (100vw / 1280));
+	font-weight: 800;
+	color: #be0223;
+	margin-right: 5px;
+}
+
+@media(max-width: 767px) {
+	.card-produkt__price-new {
+		font-size: calc(18 + (10 + 10 * 0.7) * ((100vw - 320px) / 1280));
+	}
+}
+
+
+.card-produkt__price-old {
+	font-size: calc(12px + 4 * (100vw / 1280));
+	font-weight: 800;
+	color: #999596;
+	text-decoration: line-through;
+
+
+	padding-top: 8px;
+}
+
+@media(max-width: 767px) {
+	.card-produkt__price-old {
+		font-size: calc(18 + (10 + 10 * 0.7) * ((100vw - 320px) / 1280));
+	}
+}
+
 
 .card-produkt__riting {
 	display: flex;
