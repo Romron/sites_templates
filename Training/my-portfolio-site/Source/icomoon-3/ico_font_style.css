@@ -1,17 +1,16 @@
 @font-face {
   font-family: 'icomoon';
-  src: url('../ico-fonts/icomoon.eot?naw9fe');
-  src: url('../ico-fonts/icomoon.eot?naw9fe#iefix') format('embedded-opentype'),
-    url('../ico-fonts/icomoon.ttf?naw9fe') format('truetype'),
-    url('../ico-fonts/icomoon.woff?naw9fe') format('woff'),
-    url('../ico-fonts/icomoon.svg?naw9fe#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?xsstfi');
+  src:  url('fonts/icomoon.eot?xsstfi#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?xsstfi') format('truetype'),
+    url('fonts/icomoon.woff?xsstfi') format('woff'),
+    url('fonts/icomoon.svg?xsstfi#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"]::before,
-[class*=" icon-"]::before {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: never;
@@ -26,6 +25,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-star-1:before {
+  content: "\e901";
+  color: #ffeb3b;
+}
+.icon-star-2:before {
+  content: "\e902";
+  color: #ffeb3b;
+}
+.icon-star-3:before {
+  content: "\e903";
+  color: #ffeb3b;
+}
 .icon-star:before {
   content: "\e900";
 }

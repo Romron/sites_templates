@@ -261,11 +261,10 @@ main {
 
 .card-produkt {
 	flex: 1 1 0;
-	height: 350px;
+	height: 430px;
 	display: flex;
 	flex-direction: column;
-
-	/* background-color: #e8e7e9; */
+	justify-content: space-between;
 }
 
 .card-produkts-wrap div:nth-last-child(1) {
@@ -273,15 +272,14 @@ main {
 }
 
 .card-produkt__img {
-	flex: 0 0 60%;
+	flex: 0 0 57%;
 	/*отзывчивая ширина*/
+	/* padding: 0px 0px 85% 0px; */
+	/*вместо(!!!) фиксированной высоты*/
 	overflow: hidden;
 	position: relative;
-	padding: 0px 0px 100% 0px;
-	/*вместо(!!!) фиксированной высоты*/
 	background-color: #71b8f3;
 
-	margin-bottom: 20px;
 }
 
 .card-produkt__img img {
@@ -306,7 +304,6 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-basis: 12%;
 	padding-bottom: 5px;
 	font-size: calc(18px + 10 * (100vw / 1280));
 	font-weight: 800;
@@ -322,9 +319,8 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-basis: 35%;
-
 	margin: 10px;
+
 }
 
 .card-produkt__price-new {
@@ -362,20 +358,38 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #f796df;
-	flex-basis: 25%;
+	align-self: center;
+}
+
+.card-produkt__riting a {
+	text-decoration: none;
 }
 
 .status-block {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #42bff0;
-	flex-basis: 40%;
+	height: 100%;
+	width: 100%;
+	border-left: 3px solid #d4d0d1;
+	padding: 0 20px;
+	margin: 0 1px 0 -8px;
+	/*смещает границу к середине пространства между блоками*/
+
 }
 
+.card-produkts-wrap>div:nth-child(1) .status-block {
+	border-left: 3px solid #d4d0d1;
+	padding: 0 20px;
+	margin: 0 0 0 -2px;
+}
 
-
+.card-produkts-wrap>div:nth-last-child(1) .status-block {
+	border-right: 3px solid #d4d0d1;
+	width: auto;
+	/*из-за отрецательного margin блок 
+	смещается в лево тогда правый бордер смещён внутрь блока*/
+}
 
 /*--------------	main	end		--------------*/
 
