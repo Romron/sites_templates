@@ -366,6 +366,8 @@ main {
 
 .card-produkt__riting a {
 	text-decoration: none;
+	color: #be0223;
+	font-size: 20px;
 }
 
 .status-block {
@@ -379,7 +381,20 @@ main {
 	margin: 0 1px 0 -8px;
 	/*смещает границу к середине пространства между блоками*/
 
+
+
 }
+
+.status-block__icon {
+	margin: 10px;
+}
+
+.status-block__icon a {
+	text-decoration: none;
+	color: #d4d0d1;
+	font-size: 30px;
+}
+
 
 .card-produkts-wrap>div:nth-child(1) .status-block {
 	border-left: 3px solid #d4d0d1;
@@ -622,6 +637,11 @@ main {
 	}
 }
 
+/*--------------	main	end		--------------*/
+
+
+/*--------------	sing-up	start		--------------*/
+
 .sing-up-wrap {
 	width: 100%;
 	height: 300px;
@@ -631,7 +651,30 @@ main {
 	/* justify-content: center; */
 	align-items: center;
 
+	position: relative;
+
+
 }
+
+#sing-up-form {
+	height: 0px;
+	background-color: #fff;
+	z-index: 20;
+	margin-bottom: 70px;
+}
+
+.fon-img {
+	position: relative;
+	transform: rotate(20deg);
+	color: #dee5e9e7;
+	font-size: 180px;
+	bottom: 95px;
+	right: 330px;
+
+	width: 0px;
+	height: 0px;
+}
+
 
 .sing-up__title {
 	width: 500px;
@@ -657,9 +700,11 @@ main {
 	height: 35px;
 	width: 350px;
 	border: 1px solid rgb(212, 212, 231);
-	/* border-radius: 20px; */
 	border-radius: 20px 0px 0px 20px;
 	margin-right: -5px;
+	color: rgb(212, 212, 231);
+	padding-left: 10px;
+
 
 }
 
@@ -670,22 +715,45 @@ main {
 	background-color: #be0223;
 	border-radius: 0px 20px 20px 0px;
 	border-left: none;
-
 	color: #fcfcfc;
 	font-weight: 800;
+	margin-bottom: 30px;
 }
+
+.icon-mail:before {
+	color: #f7f2f3;
+	font-size: 15px;
+	margin-right: 7px;
+}
+
 
 .sing-up-wrap__icons {
-	width: 300px;
-	height: 100px;
-	border: 1px solid #0515fd;
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	/* border: 1px solid #0515fd; */
 }
 
+.sing-up-wrap__icons a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	margin: 0px 10px;
 
-/*--------------	main	end		--------------*/
+	border: 1px solid rgb(212, 212, 231);
+	text-decoration: none;
 
+	color: #4b4949;
+	font-size: 15px;
 
+}
+
+/*--------------	sing-up	end		--------------*/
 
 /*--------------	footer		------------------*/
+
+
 
 /*--------------	footer	end		--------------*/
