@@ -57,3 +57,9 @@
   color: #be0223;
   font-size: 20px;
 }
+
+.icon-sand-leter:before {
+  content: "\e904";
+  font-size: 40px;
+  /* color: aliceblue; */
+}
