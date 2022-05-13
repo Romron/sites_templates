@@ -27,7 +27,7 @@ img {
 
 
 
-.block {
+._block {
 	/* border: 1px solid #ffdfdf; */
 	height: 100%;
 	flex-grow: 1;
@@ -78,11 +78,70 @@ img {
 }
 
 /*--------------	heder	-----------------*/
-.heder__logo {}
+.heder-0 {
+	border: 1px solid #54fd05;
 
-.heder__serch {}
+}
 
-.heder__right {}
+.heder {
+	border: 1px solid #0515fd;
+	height: 200px;
+
+}
+
+
+
+
+.heder__logo {
+	border: 1px solid #54fd05;
+	display: flex;
+	flex-direction: column;
+}
+
+.heder__contacts {
+	/* border: 1px solid #05b7fd; */
+	height: 20px;
+	display: flex;
+	/* justify-content: space-around; */
+}
+
+.heder__contacts a {
+	text-decoration: none;
+	color: #d4d0d1;
+	font-size: 20px;
+}
+
+.logo-wrap {
+	flex-grow: 1;
+	/* flex-basis: 100px; */
+
+	overflow: hidden;
+	position: relative;
+
+
+
+}
+
+.logo-wrap img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: contain;
+	object-position: left;
+	/* scale: 0.8; */
+	/* или более подходящее значение*/
+}
+
+.heder__serch {
+	border: 1px solid #54fd05;
+	flex-grow: 2;
+}
+
+.heder__right {
+	border: 1px solid #54fd05;
+}
 
 /*--------------	heder	end	--------------*/
 
@@ -754,15 +813,33 @@ main {
 
 /*--------------	footer		------------------*/
 .footer {
-	display: flex;
+	/* border: 1px solid #f9fd05; */
+	padding-bottom: 20px;
 }
 
 .footer>div {
-	min-width: 200px;
-	height: 200px;
-	margin: 10px;
-	border: 1px solid #0515fd;
+	min-height: 200px;
+	/* border: 1px solid #0515fd; */
+	flex-basis: 25%;
+	padding: 0px 10px;
+
 }
 
+.title-footer-blocks {
+	color: #d4d0d1;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 900;
+	margin: 45px 0px 30px 0px;
+}
+
+.title-footer-blocks__list {
+	line-height: 30px;
+}
+
+.title-footer-blocks__list a {
+	text-decoration: none;
+	color: #9e999a;
+}
 
 /*--------------	footer	end		--------------*/
