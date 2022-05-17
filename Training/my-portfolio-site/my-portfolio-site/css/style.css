@@ -62,15 +62,15 @@ img {
 	background-color: #000000d6;
 	width: 100%;
 	min-height: 100px;
+
+	height: 270px;
 	display: flex;
 	justify-content: center;
 }
 
 .heder,
 .footer {
-
 	display: flex;
-	justify-content: space-between;
 }
 
 .wrap-content {
@@ -78,48 +78,38 @@ img {
 }
 
 /*--------------	heder	-----------------*/
-.heder-0 {
-	border: 1px solid #54fd05;
-
-}
+.heder-0 {}
 
 .heder {
-	border: 1px solid #0515fd;
 	height: 200px;
-
+	align-self: end;
 }
 
-
-
-
 .heder__logo {
-	border: 1px solid #54fd05;
 	display: flex;
 	flex-direction: column;
+	width: 25%;
+
+
 }
 
 .heder__contacts {
-	/* border: 1px solid #05b7fd; */
 	height: 20px;
 	display: flex;
-	/* justify-content: space-around; */
+	justify-content: space-around;
 }
 
 .heder__contacts a {
 	text-decoration: none;
 	color: #d4d0d1;
-	font-size: 20px;
+	font-size: 16px;
+
 }
 
 .logo-wrap {
-	flex-grow: 1;
-	/* flex-basis: 100px; */
-
+	height: 100%;
 	overflow: hidden;
 	position: relative;
-
-
-
 }
 
 .logo-wrap img {
@@ -130,17 +120,81 @@ img {
 	left: 0;
 	object-fit: contain;
 	object-position: left;
-	/* scale: 0.8; */
-	/* или более подходящее значение*/
+	z-index: 0;
 }
 
 .heder__serch {
-	border: 1px solid #54fd05;
-	flex-grow: 2;
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 }
 
+#serch-form {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+#serch-form>* {
+	height: 40px;
+	border: none;
+}
+
+#serch-form>select {
+	height: 42px;
+	border-radius: 20px 0px 0px 20px;
+	text-align: center;
+	border-right: 1px solid #dddde2;
+	background-color: #fff6f6;
+	width: 40%;
+}
+
+#serch-form__main-fild {
+	width: 100%;
+}
+
+#serch-form__btn {
+	height: 43px;
+	width: 40%;
+	border: 1px solid #be0223;
+	background-color: #be0223;
+	border-radius: 0px 20px 20px 0px;
+	border-left: none;
+	color: #fcfcfc;
+	font-weight: 800;
+}
+
+
 .heder__right {
-	border: 1px solid #54fd05;
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: start;
+
+}
+
+.heder__right .heder__logo {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.heder__logo-blocks {
+	width: 50%;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+
+.heder__logo-blocks a {
+	text-decoration: none;
+	color: #dddde2;
+
+
 }
 
 /*--------------	heder	end	--------------*/
@@ -763,8 +817,10 @@ main {
 	margin-right: -5px;
 	color: rgb(212, 212, 231);
 	padding-left: 10px;
+}
 
-
+#sing-up-email:focus {
+	color: #1a1818;
 }
 
 #sing-up-btn {
