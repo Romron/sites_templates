@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'HelveticaNeue LT CYR 57 Cond';
+    font-family: 'HelveticaNeue';
     src: url('HelveticaNeueLTCYR-Cond.woff2') format('woff2'),
         url('HelveticaNeueLTCYR-Cond.woff') format('woff'),
         url('HelveticaNeueLTCYR-Cond.svg#HelveticaNeueLTCYR-Cond') format('svg');
@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family: 'HelveticaNeue LT CYR 57 Cond';
+    font-family: 'HelveticaNeue';
     src: url('HelveticaNeueLTCYR-BdCond.woff2') format('woff2'),
         url('HelveticaNeueLTCYR-BdCond.woff') format('woff'),
         url('HelveticaNeueLTCYR-BdCond.svg#HelveticaNeueLTCYR-BdCond') format('svg');
@@ -19,7 +19,7 @@
 }
 
 @font-face {
-    font-family: 'Arial MT';
+    font-family: 'Arial';
     src: url('ArialMT.woff2') format('woff2'),
         url('ArialMT.woff') format('woff'),
         url('ArialMT.svg#ArialMT') format('svg');
@@ -49,7 +49,7 @@
 }
 
 @font-face {
-    font-family: 'SYSTEM HATCH';
+    font-family: 'SYSTEM-HATCH';
     src: url('SYSTEMHATCH.woff2') format('woff2'),
         url('SYSTEMHATCH.woff') format('woff'),
         url('SYSTEMHATCH.svg#SYSTEMHATCH') format('svg');
