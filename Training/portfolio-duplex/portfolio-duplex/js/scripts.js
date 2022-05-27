@@ -1,52 +1,28 @@
 
-// slider_1();
-slider_2();
-
-
-
-function slider_2() {
-   let arr_slides = document.querySelectorAll('.wrap-slider-cards .slider-card');
-   console.log(arr_slides);
-
-   array.forEach(element => {
-      768
-   });
-
-
-
-}
-
-
-
-
-
-
+slider_1();
 
 
 function slider_1() {
+   /*
+      проматывает все элементы с лево на право и обратно
+   */
 
    let offset = 0;
    const sliderLine = document.querySelector('.wrap-slider-cards');
-
-
+   let quantity_img = document.querySelectorAll('.wrap-slider-cards .slider-card img').length
    document.querySelector('#left').addEventListener('click', function () {
+      if (offset > (quantity_img - 5) * 235) {
+         return;
+      }
       offset = offset + 235;
-      if (offset > 470) {
-         offset = -470;
-      }
       sliderLine.style.left = -offset + 'px';
-
-      console.log('#left  offset = ' + offset);
    });
-
    document.querySelector('#right').addEventListener('click', function () {
-      offset = offset - 235;
-      if (offset < 0) {
-         offset = 450;
+      if (offset < 1) {
+         return;
       }
+      offset = offset - 235;
       sliderLine.style.left = -offset + 'px';
    });
-
-
 
 }
