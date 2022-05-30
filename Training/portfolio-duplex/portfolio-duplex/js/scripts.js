@@ -9,7 +9,9 @@ function slider_1() {
 
    let offset = 0;
    const sliderLine = document.querySelector('.wrap-slider-cards');
-   let quantity_img = document.querySelectorAll('.wrap-slider-cards .slider-card img').length
+   let quantity_img = document.querySelectorAll('.wrap-slider-cards .slider-card').length
+   console.log("quantity_img = " + quantity_img)
+
    document.querySelector('#left').addEventListener('click', function () {
       if (offset > (quantity_img - 5) * 235) {
          return;
