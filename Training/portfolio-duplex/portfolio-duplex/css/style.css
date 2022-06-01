@@ -612,10 +612,25 @@ img {
 	width: 100%;
 	border: 1px solid #e3e3e3;
 
+
+
 }
 
 .wrap-cerch {
-	height: 30px;
+	border: none;
+}
+
+.wrap-cerch form {
+	border: none;
+}
+
+.wrap-cerch form input {
+	/* border: none; */
+	/* height: 35px; */
+	font-size: 12px;
+	font-family: Arial;
+	line-height: 36px;
+	color: #adadad;
 }
 
 .sep {
