@@ -1,0 +1,108 @@
+/*---------	tabs	start	--------------*/
+
+#tab2,
+#tab3,
+#tab4,
+#tab5 {
+	position: fixed;
+}
+
+.menu1>a,
+.menu1 #tab2:target~a:nth-of-type(1),
+.menu1 #tab3:target~a:nth-of-type(1),
+.menu1>div {
+	padding: 5px;
+	border: 1px solid #aaa;
+}
+
+.menu1>a {
+	line-height: 28px;
+	background: #fff;
+	text-decoration: none;
+}
+
+/* #tab2,
+#tab3,
+.menu1>div,
+.menu1 #tab2:target~div:nth-of-type(1),
+.menu1 #tab3:target~div:nth-of-type(1) {
+	display: none;
+} */
+
+
+
+.menu1>div,
+.menu1 #tab2:target~div:nth-of-type(1),
+.menu1 #tab3:target~div:nth-of-type(1) {
+	display: none;
+}
+
+
+
+
+
+.menu1>div:nth-of-type(1),
+.menu1 #tab2:target~div:nth-of-type(2),
+.menu1 #tab3:target~div:nth-of-type(3) {
+	display: block;
+}
+
+
+
+
+.menu1>a:nth-of-type(1),
+.menu1 #tab2:target~a:nth-of-type(2),
+.menu1 #tab3:target~a:nth-of-type(3) {
+	border-bottom: 2px solid #fff;
+}
+
+/*---------	tabs	end	--------------*/
+
+
+
+
+
+
+/*---------	tabs	start	--------------*/
+
+#tab2,
+#tab3,
+#tab4,
+#tab5 {
+	position: fixed;
+}
+
+.menu1 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu1>a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	font-size: 11px;
+	font-family: HelveticaNeue;
+	color: #828282;
+	font-weight: bold;
+	border: 1px solid #d3d3d3;
+	height: 40px;
+}
+
+.wrap-tabs>div {
+	border: 1px solid #0515fd;
+	display: none;
+}
+
+.wrap-tabs div:nth-of-type(1),
+.menu1 #tab2:target~div:nth-of-type(2),
+.menu1 #tab3:target~div:nth-of-type(3) {
+	display: block;
+}
+
+
+
+
+
+/*---------	tabs	end	--------------*/
