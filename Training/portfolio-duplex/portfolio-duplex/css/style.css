@@ -647,15 +647,8 @@ img {
 .wrap-title-tabs {
 	display: flex;
 	justify-content: space-between;
-
 	cursor: pointer;
-
-	/* border: none; */
-
-	/* border: 1px solid #e3e3e3; */
-
 }
-
 
 .title-tab {
 	display: flex;
@@ -667,15 +660,15 @@ img {
 	color: #828282;
 	font-weight: bold;
 	height: 40px;
-
 	border: none;
-
 	border-right: 1px solid #e3e3e3;
 	border-bottom: 1px solid #e3e3e3;
 }
 
 .title-tab-active {
 	border-bottom: none;
+
+	/* background-color: rgb(250, 16, 16); */
 }
 
 .wrap-title-tabs:last-child {
@@ -686,10 +679,9 @@ img {
 
 .tab-hide {
 	display: none;
-
 }
 
-.tab {
+.tab-active {
 	display: block;
 	/* border: 1px solid #e3e3e3; */
 	/* border-top: none; */

@@ -8,16 +8,17 @@ tabs_1();
 function tabs_1() {
    const tabber_elements = document.querySelectorAll('.wrap-title-tabs a');
    const tabs = document.querySelectorAll('.wrap-tabs div');
-   // const title_tab = document.querySelectorAll('wrap-title-tabs div');
+   const title_tabs = document.querySelectorAll('.wrap-title-tabs div');
    document.querySelector('.wrap-title-tabs').addEventListener('click', (e) => {
       for (let i = 0; i < tabs.length; i++) {
          tabs[i].className = "tab-hide";
-         // title_tab[i].className = "title-tab";
+         title_tabs[i].className = "title-tab";
       }
-      document.querySelector('#tab-' + e.target.id).className = "tab";
-      // document.querySelector('.title-tab-' + e.target.id).className = "title-tab-active";
+      document.querySelector('#tab-' + e.target.id).className = "tab-active";
+      e.target.classList.add("title-tab-active");
    });
 }
+
 
 
 
