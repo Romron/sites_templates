@@ -6,9 +6,8 @@ tabs_1();
 
 
 function tabs_1() {
-   const tabber_elements = document.querySelectorAll('.wrap-title-tabs a');
-   const tabs = document.querySelectorAll('.wrap-tabs div');
-   const title_tabs = document.querySelectorAll('.wrap-title-tabs div');
+   const tabs = document.querySelectorAll('.wrap-tabs>div');
+   const title_tabs = document.querySelectorAll('.wrap-title-tabs>div');
    document.querySelector('.wrap-title-tabs').addEventListener('click', (e) => {
       for (let i = 0; i < tabs.length; i++) {
          tabs[i].className = "tab-hide";
@@ -18,16 +17,6 @@ function tabs_1() {
       e.target.classList.add("title-tab-active");
    });
 }
-
-
-
-
-
-
-
-
-
-
 
 function slider_1() {
    /*
