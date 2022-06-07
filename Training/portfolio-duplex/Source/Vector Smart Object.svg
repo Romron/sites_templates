@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 22" width="30" height="22">
+	<title>sidebar</title>
+	<defs>
+		<image width="30" height="21" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAVCAYAAABR915hAAAAAXNSR0IArs4c6QAAAeVJREFUSEu1VlFOwkAQfQMeABNr4h9HYG8AN/AG6p8RPuAEwgmABI1/6AmsJxBPsPUE4pcJJYFvAccMtNosXbpq3b+2u/Pmzcx7W0JOq67DLoAqgAoDfgF0N1AHvi085YEbgTajWHOA/BUWnRt1NHYGjoK8rrD0dx2MAzb09JjB9yaAsAa4c60OgzTwLcZ1PR0CfCqbNyVDf6C8Udrhpp6VFli+AChZmM0Z3LpWh7fm9y3gCz2pEEgbGwMG980ADR22GbjMaJeA10zmqT2+0JNTAsmwmEwCAlpxBeo6nO1gm8xndKW8WvJFKnBdT18ALu9g0mPwM4GGrsPJYJVkbWEc3hNwnFVCR7ZxmN4Ky748FFCspgJHQyOTKrrMfRHQseo4GjIpZSVH5ACgAOs2WZZhCjliYy0xK/Cm3KturOm/I9Nt0s0yLfNcv5WL2BNd20zCKSenqU5GauiwysCjU3T7Jjcdm+c3DkUnGdq2wppsZSOJNzM+xA5TzVw2RaxFXj8uN4PPUr36u4fkE/Cwh+Kop/bnIieREq2Z/lrPvSvltay3039o1sY0TuJrqkU+71gOHawyY85oTOAz21W6BRy/iPopV90P7XINeDdQXttFAVmWKf2VXtuSkB+EgEBPu/6v0hL5BAG70VdL5jswAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="sidebar">
+		<g id="twitter">
+			<use id="Vector Smart Object" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+		</g>
+	</g>
+</svg>
