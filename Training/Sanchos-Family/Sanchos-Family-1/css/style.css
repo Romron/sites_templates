@@ -1,0 +1,24 @@
+
+
+/*установить модель расчёта размеров блоков*/
+html{	
+	box-sizing: border-box;
+}
+*,*::before,*::after{
+	box-sizing: inherit;
+}
+
+/*настройки для картинок*/
+img {
+	max-whith: 100%;	
+	hight: auto;
+}
+
+/*установка шрифтов подключённых в теге head*/
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+h{
+	height: ;
+}
