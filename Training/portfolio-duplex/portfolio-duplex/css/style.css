@@ -22,7 +22,7 @@ img {
 .wrap-navigation,
 .wrap-latest-posts,
 .wrap-content,
-.wrap-footer {
+.footer {
 	width: 940px;
 	border: 1px solid #cecece;
 	background-color: #f6f6f6;
@@ -912,8 +912,158 @@ img {
 
 /*----- start wrap-footer -----*/
 .footer {
-	height: 515px;
+	max-height: 515px;
+	min-height: 300px;
 	background-color: #313131;
+
+	padding-bottom: 25px;
+}
+
+.footer-categories-line {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	background-color: 1px solid #232425;
+	margin-bottom: 10px;
+}
+
+.footer-categories-line__categories,
+.footer-categories-line__back-to-top {
+	font-size: 13px;
+	color: #7c7b7b;
+	font-style: italic;
+	font-family: HelveticaNeue;
+	filter: drop-shadow(0px 1px 0px rgba(0, 0, 0, 0.6));
+	display: flex;
+	align-items: center;
+}
+
+.footer-categories-line__categories {
+	margin-left: 25px;
+}
+
+
+.footer-categories-line__categories a,
+.footer-categories-line__back-to-top a {
+	text-decoration: none;
+	color: #7c7b7b;
+}
+
+.footer-categories-line__categories a::before {
+	content: "//";
+	margin: 0 8px;
+}
+
+.footer-categories-line__categories a:hover {
+	color: #cdcdcd;
+}
+
+.footer-categories-line__back-to-top {
+	margin-right: 25px;
+
+}
+
+.footer-categories-line__back-to-top a::after {
+	content: url("../img/footer-arrow-up.png");
+	margin-left: 3px;
+}
+
+.futer-columns {
+
+	display: flex;
+	margin: 0 25px;
+	max-height: 430px;
+
+
+
+}
+
+.about-duplex,
+.latest-posts,
+.flickr-photostream {
+	width: 33.333%;
+	padding: 0 10px 0 10px;
+}
+
+.about-duplex,
+.latest-posts {
+	font-size: 12px;
+	line-height: 20px;
+	color: #999999;
+	font-family: HelveticaNeue;
+	filter: drop-shadow(0px 1px 0.5px rgba(0, 0, 0, 0.6));
+}
+
+.about-duplex p {
+	margin: 10px 0px 30px 0px;
+}
+
+.footer__title {
+	font-size: 13px;
+	line-height: 24px;
+	color: #b9b8b8;
+	font-weight: bold;
+	font-family: Helvetica-Neue;
+	filter: drop-shadow(0px 1px 0.5px rgba(0, 0, 0, 0.6));
+	height: 40px;
+	display: flex;
+	align-items: center;
+}
+
+.about-duplex .footer__title,
+.latest-posts .footer__title {
+	border-bottom: 1px dotted #686767;
+}
+
+
+.latest-posts {}
+
+.latest-posts__block {
+	height: 55px;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px dotted #686767;
+}
+
+.latest-posts__block:nth-last-child(1) {
+	border-bottom: none;
+}
+
+.latest-posts__block a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.latest-posts__block a:hover {
+	color: #fefefe;
+}
+
+.flickr-photostream {
+	padding: 0px 5px 0px 5px;
+}
+
+.flickr-photostream__wrap-img {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flickr-photostream__img {
+	position: relative;
+	padding: 25px 0px;
+	text-align: center;
+	width: calc(100% / 4 - 16px);
+	margin: 8px;
+}
+
+.flickr-photostream__img img {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+	object-position: center;
 }
 
 /*----- wrap-footer end -----*/
