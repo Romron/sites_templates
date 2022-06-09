@@ -351,9 +351,6 @@ img {
 	font-display: swap;
 }
 
-
-
-
 @font-face {
 	font-family: 'Raleway';
 	src: url('Raleway-ExtraBold.eot');
@@ -596,18 +593,185 @@ img {
 /*-----------	end fonts	-----------------------*/
 
 
-body div {
-	background-color: rgb(245, 244, 222);
-
+body {
 	font-family: Raleway;
-}
-
-.test-icons {
+	font-style: normal;
 	display: flex;
 	flex-direction: column;
-	margin: 10px;
+	align-items: center;
+
+
+	/* position: relative; */
 }
 
-.test-icons a {
-	margin: 10px;
+.headere-fon {
+	width: 100%;
+	height: 96px;
+
+	position: fixed;
+}
+
+.headere-fon__1 {
+	width: 50%;
+	height: inherit;
+	background-color: #DDEAFB;
+}
+
+.headere-fon__2 {
+	width: 50%;
+	height: inherit;
+
+}
+
+
+
+.header {
+	width: 1600px;
+	height: 152px;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+
+	z-index: 90;
+}
+
+.logo {
+	position: absolute;
+	width: 138.45px;
+	height: 56px;
+	left: 0px;
+	right: 0px;
+	margin: 0px auto;
+	top: 25px;
+	z-index: 90;
+}
+
+.logo img {
+	width: 100%;
+	height: 100%;
+	object-position: center;
+	z-index: 10;
+}
+
+.logo__fon {
+	width: 800px;
+	height: 96px;
+	background-color: #DDEAFB;
+
+
+}
+
+.head-wrap {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	width: 1016px;
+	height: 152px;
+
+
+	margin: 0px auto;
+
+}
+
+.head {
+	width: inherit;
+	height: 96px;
+	display: flex;
+	justify-content: end;
+}
+
+.head__icons {
+	height: auto;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	width: 508px;
+}
+
+.head__icons a {
+	text-decoration: none;
+	color: #030A1B;
+
+	display: block;
+	padding: 13px;
+	height: 40px;
+	width: 40px;
+	background-color: #fff;
+	margin: 0 8px;
+}
+
+.head__contacts {
+	align-self: center;
+	text-align: end;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 140%;
+	color: #030A1B;
+	width: 508px;
+}
+
+.head__contacts p {
+	margin: 4px 0;
+
+}
+
+.food-delivery,
+.book-a-table {
+	position: absolute;
+	bottom: 0px;
+	border: none;
+}
+
+.food-delivery {
+	right: 229px;
+	width: 184px;
+	height: 56px;
+	background: #FACD5C;
+
+
+}
+
+.book-a-table {
+	right: 0px;
+	width: 229px;
+	height: 56px;
+	background: #299D9A;
+
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 140%;
+	font-feature-settings: 'pnum' on, 'lnum' on;
+	color: #FFFFFF;
+
+}
+
+
+
+
+
+
+
+
+
+
+.content-wrap {
+	position: relative;
+	left: 292px;
+	top: 96px;
+	width: 1600px;
+	height: 2000px;
+	border: 3px solid #b705fd;
+
+}
+
+
+.menu {
+	height: 56px;
+	width: 603px;
+
+	border: 1px solid #0515fd;
+
 }
