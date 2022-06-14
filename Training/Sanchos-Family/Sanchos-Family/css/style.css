@@ -813,13 +813,18 @@ body {
 }
 
 .img-centr,
-.img-centr img,
+.wrap-slider-cards,
+.wrap-slider-cards img,
 .img-centr__gradient {
 	position: absolute;
 	left: 0;
 	right: 0;
 	height: inherit;
 	width: inherit;
+}
+
+.slide-hide {
+	display: none;
 }
 
 .img-centr__gradient {
@@ -877,5 +882,23 @@ body {
 	font-feature-settings: 'pnum' on, 'lnum' on;
 	color: #FFFFFF;
 }
+
+.arrow-left,
+.arrow-right {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 50%;
+	transform: translate(0, -50%);
+
+	height: 40px;
+	width: 40px;
+
+}
+
+.arrow-right {}
+
+
 
 .info__indikator {}
