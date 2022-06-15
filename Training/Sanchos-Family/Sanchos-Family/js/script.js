@@ -1,8 +1,8 @@
 
-slider_2();
+slider_2('slider-1');
 
 
-function slider_2() {
+function slider_2(slider_name) {
    /*
       перебирает элементы в контейнере
       удаляя при этом скрывающий стиль
@@ -11,7 +11,7 @@ function slider_2() {
 
    let offset = 0;
 
-   let arr_img = document.querySelectorAll('.wrap-slider-cards img');
+   let arr_img = document.querySelectorAll('.' + slider_name + ' img');
    let quantity_img = arr_img.length
 
    document.querySelector('#left').addEventListener('click', function () {
@@ -37,7 +37,6 @@ function slider_2() {
          Indikator_line(offset);
          return;
       }
-
 
    });
 
