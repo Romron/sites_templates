@@ -1,15 +1,14 @@
-html{
+html {
 	box-sizing: border-box;
 }
-*,*::before,*::after{
+
+*,
+*::before,
+*::after {
 	box-sizing: inherit;
 }
 
 img {
-	max-whith: 100%	
-	hight: auto;
+	max-width: 100%;
+	height: auto;
 }
-
-
-
-
